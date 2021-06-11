@@ -14,6 +14,13 @@ public class GugudanEvent implements ActionListener{
 		System.out.println("이벤트 클래스 생성시 넘겨받은 t_input은"+t_input);
 		this.t_input=t_input;
 	}
+	public void callMe(int x) {
+		System.out.println("넘겨받은 x는 ");
+	}
+	public void callMe(int x, String y) {
+		System.out.println("넘겨받은 x는 "+x+", y는 "+y);
+	}
+	
 	
 	public void actionPerformed(ActionEvent e) {
 		//나 아닌 다른 클래스에 존재하는 TextField 값에 무엇이 들어있는지 알아맞추기!!
